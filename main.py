@@ -105,6 +105,7 @@ if __name__ == '__main__':
 
     # График
     plt.plot(x, y)
+    plt.title(f'y={a}x^2 {b}x {c}')
     plt.gca().invert_yaxis()
     plt.xlabel = 'Ось X'
     plt.ylable = 'Ось Y'
